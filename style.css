@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 75px;
+    background-color:cornflowerblue;
+}
+
+ul{
+    text-align: center;
+}
+ul > li {
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+}
+main{
+    height: 100vb;
+    width: 100%;
+    display: flex;
+    justify-items:center;
+}
+main > .conteiner {
+    outline: 2px solid black;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+
+.conteiner > p{
+        text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+        color: #fff;
+}
