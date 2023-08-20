@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    background-color: aqua;
+}
+
+nav > header {
+     width: 200px;
+     height: 200px;
+     background-color: brown;
+}
+ul{
+    text-align: center;
+}
+ul > li {
+    display: inline-block;
+    text-align: center;
+}
