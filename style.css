@@ -5,15 +5,36 @@
 }
 
 nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    background-color: aqua;
-    height: 70px;
+    height: 75px;
+    background-color:cornflowerblue;
 }
 
 ul{
     text-align: center;
 }
 ul > li {
+    padding: 5px;
     display: inline-block;
     text-align: center;
+}
+main{
+    height: 100vb;
+    width: 100%;
+    display: flex;
+    justify-items:center;
+}
+main > .conteiner {
+    outline: 2px solid black;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+
+.conteiner > p{
+        text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+        color: #fff;
 }
