@@ -9,11 +9,6 @@ nav{
     background-color: aqua;
 }
 
-nav > header {
-     width: 200px;
-     height: 200px;
-     background-color: brown;
-}
 ul{
     text-align: center;
 }
