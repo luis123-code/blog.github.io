@@ -54,5 +54,11 @@ body
     float: right;
     border-radius: 1em;
     height: 150px;
-    object-fit: cover;    
+    object-fit: cover;
+}    
+footer{
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+    background-color:#545866;
 }
