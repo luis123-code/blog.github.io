@@ -50,3 +50,9 @@ body
     background: white;
     padding: 1em;
 }
+#post > img {
+    float: right;
+    border-radius: 1em;
+    height: 150px;
+    object-fit: cover;    
+}
