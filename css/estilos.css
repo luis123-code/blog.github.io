@@ -55,7 +55,12 @@ body
     border-radius: 1em;
     height: 150px;
     object-fit: cover;
-}    
+} 
+
+.contenedor_palabra{
+    display: flex;
+    justify-content: space-between;
+}
 footer{
     padding: 15px 0;
     text-align: center;
