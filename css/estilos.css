@@ -63,7 +63,20 @@ body
 }
 footer{
     padding: 15px 0;
-    text-align: center;
     color: white;
     background-color:#545866;
+}
+
+.imagenes{
+    display: flex;
+    justify-content: space-around;
+    object-fit: cover;
+    height: 200px;
+}
+.imagenes > img{
+    height: 100%;
+}
+.imagenes > p {
+    align-self: center;
+    font-size: large;
 }
