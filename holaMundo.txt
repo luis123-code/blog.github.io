@@ -13,3 +13,5 @@ en el origen principal mi gente
  se facilita con solo un merge en la rama main 
  GA :>
  
+ esta es la informacion validad por el conjunto de la rama
+ prueba 
